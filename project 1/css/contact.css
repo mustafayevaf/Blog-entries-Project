@@ -1,0 +1,97 @@
+/* contact us */
+
+
+.About-section-one{
+    margin: auto 10px;
+    padding: 100px 30px;
+    background-image: url('../assets/heading-bg.jpeg');
+  }
+  
+  
+  
+  .About-section-one h3{
+    font-size: 20px;
+    color: #f48840;
+  }
+  
+  
+  .About-section-one p{
+    font-size: 30px;
+    color: #f7f7f7;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+  }
+  
+  .form-section{
+    width: 90%;
+  }
+
+  .form-section form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-section
+  form div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto 10px;
+  }
+  
+  .form-section
+  form div input{
+    width: 45%;
+  }
+  
+  .form-section
+  form > input{
+    width: 95%;
+    margin: 10px auto 20px;
+  }
+  
+  .form-section
+  form > textarea{
+    width: 95% !important;
+    height: 200px !important;
+    margin-bottom: 20px;
+    padding: 10px 0px 0px 10px;
+    border: 1px solid  #aaa;
+  }
+  
+  
+  .form-section
+  form input{
+    padding: 10px 5px;
+    border: 1px solid  #aaa;
+    outline: none !important;
+  }
+  
+  .form-section
+  form input[type=submit]{
+    width: 15%;
+    margin: auto auto auto 10px;
+    background-color: #f48840;
+    border: none;
+    color: white;
+    transition: 0.4s;
+  }
+  
+  .form-section
+  form input[type=submit]:hover{
+    background-color: #f9a973;
+  }
+
+  .map{
+    width: 80%;
+    margin: auto;
+    height: 400px;
+    margin: 60px auto;
+  }
+ 
+ 
+  .map iframe{
+    width: 100%;
+    height: 100%;
+  }

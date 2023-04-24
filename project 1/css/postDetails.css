@@ -1,0 +1,164 @@
+.nav-menu ul li:nth-of-type(1) a{
+    color: unset;
+}
+
+.nav-menu ul li:nth-of-type(2) a{
+    color: unset;
+}
+
+.nav-menu ul li:nth-of-type(3) a{
+    color: unset;
+}
+
+.nav-menu ul li:nth-of-type(4) a{
+    color:#f48840; ;
+}
+
+/* comment section */
+
+
+.comment-section{
+    margin-top: 60px;
+    width: 90%;
+  }
+  
+  .comment-section > p{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  /* .comment-section 
+  .comments{
+  } */
+  
+  
+  
+  .comment-section 
+  .comments > div{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .comment-section 
+  .comments:nth-of-type(2){
+    border: none ;
+    width: 80%;
+    margin: auto 0px auto auto;
+  }
+  
+  .comment-section 
+  .comments:nth-of-type(4){
+    border: none ;
+    width: 80%;
+    margin: auto 0px auto auto;
+  }
+  
+  .comment-section 
+  .comments:nth-of-type(2) > div{
+    border: none;
+  }
+  
+  .comment-section 
+  .comments > div img{
+    padding: 5px;
+    margin-right: 20px;
+  }
+  
+  .comment-section 
+  .comments .text-box div{
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .comment-section 
+  .comments .text-box div p{
+    padding: 5px 10px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+  }
+  
+  .comment-section 
+  .comments .text-box div p:nth-of-type(1){
+    /* font-size: 20px; */
+    font-weight: 600;
+  }
+  
+  .comment-section 
+  .comments .text-box div p:nth-of-type(2){
+    color: gray;
+  }
+  
+  .comment-section 
+  .comments .text-box > p{
+    line-height: 200%;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+  }
+  
+  /* post details */
+  
+  .form-section{
+    width: 90%;
+  }
+  
+  .form-section
+  form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-section
+  form div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto 10px;
+  }
+  
+  .form-section
+  form div input{
+    width: 45%;
+  }
+  
+  .form-section
+  form > input{
+    width: 95%;
+    margin: 10px auto 20px;
+  }
+  
+  .form-section
+  form > textarea{
+    width: 95% !important;
+    height: 200px !important;
+    margin-bottom: 20px;
+    padding: 10px 0px 0px 10px;
+    border: 1px solid  #aaa;
+  }
+  
+  
+  .form-section
+  form input{
+    padding: 10px 5px;
+    border: 1px solid  #aaa;
+    outline: none !important;
+  }
+  
+  .form-section
+  form input[type=submit]{
+    width: 15%;
+    margin: auto auto auto 10px;
+    background-color: #f48840;
+    border: none;
+    color: white;
+    transition: 0.4s;
+  }
+  
+  .form-section
+  form input[type=submit]:hover{
+    background-color: #f9a973;
+  }
+  
